@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="263px" viewBox="0 0 256 263" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#512BD4">
+    <circle cx="128" cy="128" r="128" fill="#512BD4"/>
+    <text x="50%" y="55%" text-anchor="middle" font-size="90" fill="#fff" font-family="Arial" dy=".3em">.NET</text>
+  </g>
+</svg>
