@@ -3,12 +3,11 @@ import { LinearGradient } from "react-text-gradients";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
-const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_vwdlsmi";
-const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_gecgwlg";
-const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "afSC8Th9VjaesNUpv";
+const SERVICE_ID = "service_vwdlsmi";
+const TEMPLATE_ID = "template_gecgwlg";
+const PUBLIC_KEY = "afSC8Th9VjaesNUpv";
 const TO_NAME = "Sofiya Bagodiya";
-const TO_EMAIL = import.meta.env.VITE_CONTACT_EMAIL || "sofiyabagodiya12@gmail.com";
-
+const TO_EMAIL = "sofiyabagodiya19@gmail.com";
 
 
 const Contact = () => {
