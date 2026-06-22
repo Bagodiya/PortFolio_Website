@@ -44,7 +44,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
           </h2>
 
           <p className="max-w-4xl text-center justify-center text-white xl:text-xl md:text-lg sm:text-sm text-md">
-                      I build compilers and the analyses that reason about them. My work spans MLIR and LLVM IR, control-flow and dataflow analysis, JIT compilation internals, and optimization pipelines &#40;currently a security-aware adaptive JIT on Jikes RVM&#41;. I like the hard middle of the stack &#8212; the part that turns a program into fast, correct machine code &#8212; and I write a lot of C/C++ to get there. Mostly I just enjoy taking a compiler apart to see how it really works, then building my own.
+                      Compiler and systems researcher with strong foundations in compiler design, program analysis, and optimization pipelines. I build and extend LLVM-based analysis frameworks and work on JIT compilation internals within Jikes RVM, focusing on control-flow construction, interprocedural analysis, and integrating runtime profiling into compilation decisions. Strong C/C++ background, with hands-on experience modifying compiler passes, runtime systems, and optimization logic for large-scale software.
           </p>
         </div>
         <motion.div

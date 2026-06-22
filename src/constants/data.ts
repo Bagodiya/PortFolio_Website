@@ -268,20 +268,20 @@ export const workExperiences = [
   {
     id: 1,
     company: "Stevens Institute of Technology, Hoboken, NJ",
-    position: "Research Assistant — Security-Aware JIT Compilation",
+    position: "Research Assistant",
     duration: "Aug 2025 – Present",
     icon: "stevens.svg",
     technologies: [
-      "Java", "Jikes RVM", "JIT Compilation", "Adaptive Optimization", "Runtime Profiling", "Taint Analysis", "ML", "Security",
+      "Jikes RVM", "JIT", "Adaptive Optimization", "Runtime Profiling", "Taint Analysis", "ML", "Security",
     ],
     projects: [
       {
-        name: "Building a security-aware JIT compilation framework that balances performance optimizations against side-channel leakage using runtime profiling.",
+        name: "Working on a security-aware JIT compilation framework that balances performance optimizations with side-channel leakage using runtime profiling.",
         description: "",
         link: "",
       },
       {
-        name: "Modified the Jikes RVM adaptive JIT compiler to integrate security-aware optimization policies into compilation decisions.",
+        name: "Modified Jikes RVM adaptive JIT compiler to integrate security-aware optimization policies.",
         description: "",
         link: "",
       },
@@ -291,7 +291,7 @@ export const workExperiences = [
         link: "",
       },
       {
-        name: "Designed dynamic recompilation heuristics that influence optimization thresholds at runtime.",
+        name: "Designed dynamic recompilation heuristics influencing optimization thresholds.",
         description: "",
         link: "",
       },
@@ -304,16 +304,41 @@ export const workExperiences = [
   },
   {
     id: 2,
-    company: "University of Georgia – Master's Thesis",
-    position: "Research Assistant — Trustworthy Cross-DSO Control Flow Integrity",
-    duration: "Dec 2021 – Aug 2023",
-    icon: "GEORGIA.png",
+    company: "Voto Consulting LLC, NJ, USA",
+    position: "Software Developer",
+    duration: "Oct 2023 – Jun 2025",
+    icon: "voto.jpeg",
     technologies: [
-      "C++", "LLVM", "SVF", "Intel SGX", "Static Analysis", "Security",
+      "C#", ".NET Core", "ASP.NET Web API", "Okta", "ExcelDNA", "ELK Stack", "Kibana",
     ],
     projects: [
       {
-        name: "Constructed context-sensitive, IR-level Control Flow Graphs (PCFGs) for large C/C++ codebases using Static Value-Flow and demand-driven analysis in LLVM.",
+        name: "Engineered secure RESTful APIs in C#/.NET Core, implementing Okta-based authentication (JWT, 2FA) and RBAC to protect sensitive enterprise data during cross-system integration.",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Developed an in-house Excel add-in using ExcelDNA to centralize frequently accessed financial data in SQL databases, reducing reliance on third-party tools, improving auditability, and lowering licensing costs.",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Improved system observability by migrating log analysis from SQL Server to a scalable ELK stack and building Kibana dashboards (KQL), reducing mean time to resolution (MTTR) by 30%.",
+        description: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    company: "University of Georgia, Athens, GA — Master's Thesis",
+    position: "Research Assistant",
+    duration: "Dec 2021 – Aug 2023",
+    icon: "GEORGIA.png",
+    technologies: ["C++", "C", "LLVM", "CFG", "Call Graph Analysis", "Static Analysis"],
+    projects: [
+      {
+        name: "Constructed context-sensitive Control Flow Graphs (CFGs) at IR level for large C/C++ codebases.",
         description: "",
         link: "",
       },
@@ -323,79 +348,7 @@ export const workExperiences = [
         link: "",
       },
       {
-        name: "Reduced indirect-branch target sets using call-site–sensitive analysis to improve precision.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Analyzed key SVF nodes (LoadSVFGNode, MSSAPHISVFGNode, AddrSVFGNode) during backward traversal to capture control-flow information.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Designed and tested a cross-DSO CFI system to secure applications with shared libraries against control-flow hijacking, with high precision on OpenSSL, OpenSSH, Grep, and musl.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "See details: Trustworthy Cross-DSO CFI — https://openscholar.uga.edu/record/2941?ln=en",
-        description: "",
-        link: "https://openscholar.uga.edu/record/2941?ln=en",
-      },
-    ],
-  },
-  {
-    id: 3,
-    company: "Voto Consulting LLC, NJ, USA",
-    position: "Software Developer",
-    duration: "Oct 2023 – Jun 2025",
-    icon: "voto.jpeg",
-    technologies: [
-      "C#", ".NET Core", "ASP.NET Web API", "Entity Framework Core", "Okta", "ExcelDNA", "ELK Stack", "Kibana", "xUnit", "Azure", "CI/CD",
-    ],
-    projects: [
-      {
-        name: "Engineered secure RESTful APIs in C#/.NET Core with Okta-based authentication (JWT, 2FA) and RBAC to protect sensitive enterprise data during cross-system integration.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Developed an in-house Excel add-in using ExcelDNA to centralize frequently accessed financial data in SQL, reducing reliance on third-party tools, improving auditability, and lowering licensing costs.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Improved observability by migrating log analysis from SQL Server to a scalable ELK stack and building Kibana (KQL) dashboards, reducing mean time to resolution (MTTR) by 30%.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Increased test coverage from 50% to 85% with xUnit unit/integration tests and refactored legacy code to improve maintainability and scalability.",
-        description: "",
-        link: "",
-      },
-    ],
-  },
-  {
-    id: 4,
-    company: "University of Georgia – Research Project",
-    position: "Research Assistant — Insecurities of Constraint-Sensitive Indirect Calls",
-    duration: "Jan 2022 – Aug 2022",
-    icon: "GEORGIA.png",
-    technologies: ["C++", "LLVM", "SVF", "Security", "GDB", "LLDB"],
-    projects: [
-      {
-        name: "Collaborated on a project to analyze and mitigate vulnerabilities from constraint-sensitive indirect calls in large-scale applications.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Developed a CS-iCall CFI mechanism in LLVM to protect against control-flow hijacking by analyzing constraint-sensitive dependencies.",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Resolved segmentation faults and aliasing issues with GDB and LLDB, ensuring stability in the control-flow-integrity mechanisms.",
+        name: "Reduced indirect branch target sets using call-site–sensitive analysis to improve precision.",
         description: "",
         link: "",
       },
@@ -412,50 +365,44 @@ export const skills = [
   // Programming Languages
   "C++",
   "C",
-  "Python",
   "Java",
+  "Python",
   "C#",
 
   // Compiler & Language Implementation
   "MLIR",
   "LLVM IR",
-  "Compiler Passes",
-  "Clang",
+  "Compiler Pass Development",
   "Frontend / IR Design",
-  "Code Generation",
-  "SSA",
-  "Register Allocation",
-
-  // Program Analysis
-  "Control-Flow Graphs",
+  "CFG Construction",
   "Call Graph Analysis",
-  "Interprocedural Analysis",
-  "Dataflow Analysis",
-  "Static Analysis",
-  "Value-Flow Analysis (SVF)",
-  "Taint Analysis",
-  "Symbolic Execution",
+  "Interprocedural Dataflow Analysis",
+  "Code Generation",
   "Indirect Call Resolution",
 
   // Optimization & Runtime Systems
-  "JIT Compilation",
-  "Jikes RVM",
+  "JIT Compilation (Jikes RVM)",
   "Adaptive Optimization",
+  "Compiler Instrumentation",
   "Runtime Profiling",
   "Recompilation Heuristics",
-  "Instrumentation",
+
+  // Program Analysis
+  "Static Analysis",
+  "Value-Flow Analysis (SVF)",
+  "Taint Analysis",
+  "Dataflow Frameworks",
 
   // Systems & Performance
   "Linux",
-  "Low-Level Systems",
-  "Memory Models",
+  "Low-Level Systems Programming",
+  "Memory Model Awareness",
   "Performance Analysis",
-  "CUDA",
-  "Z3 / SMT",
+  "GPU / CUDA Basics",
 
   // Tools
   "Git",
+  "CI/CD (GitHub)",
   "CMake",
   "GCC / Clang",
-  "CI/CD",
 ];
