@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#ff3cac"/><stop offset="1" stop-color="#fc0865"/>
+</linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#26242c"/><stop offset="1" stop-color="#1a191e"/>
+</linearGradient>
+</defs>
+<rect x="2" y="2" width="636" height="356" rx="20" fill="url(#bg)" stroke="#34323b" stroke-width="2"/>
+<rect x="2" y="2" width="636" height="6" rx="3" fill="url(#acc)"/>
+<text x="40" y="78" font-family="ui-monospace,Menlo,monospace" font-size="15" letter-spacing="3" fill="#fc0865">// REGEX VM</text>
+<text x="38" y="150" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="52" font-weight="800" fill="#f5f5f7">regex-engine</text>
+<text x="40" y="192" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="20" fill="#9a9aa3">Thompson NFA regex engine, linear time</text>
+<text x="600" y="78" text-anchor="end" font-family="ui-monospace,monospace" font-size="40" fill="#2f2d36" font-weight="800">{}</text>
+<rect x="158" y="250" width="91" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="203" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">pattern</text>
+<text x="262" y="273" text-anchor="middle" font-family="ui-monospace,monospace" font-size="16" fill="url(#acc)">&#8594;</text>
+<rect x="274" y="250" width="55" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="302" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">AST</text>
+<text x="342" y="273" text-anchor="middle" font-family="ui-monospace,monospace" font-size="16" fill="url(#acc)">&#8594;</text>
+<rect x="356" y="250" width="55" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="383" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">NFA</text>
+<text x="424" y="273" text-anchor="middle" font-family="ui-monospace,monospace" font-size="16" fill="url(#acc)">&#8594;</text>
+<rect x="436" y="250" width="46" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="460" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">VM</text>
+</svg>
