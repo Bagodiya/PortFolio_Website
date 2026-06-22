@@ -40,11 +40,11 @@ const Hero = () => {
 before:absolute before:inset-0 before:animate-typewriter before:bg-[#1a191e]
 after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-white"
           >
-            Software Engineer
+            Compiler & Systems Researcher
           </h2>
 
           <p className="max-w-4xl text-center justify-center text-white xl:text-xl md:text-lg sm:text-sm text-md">
-                      I love building tech that solves real problems and actually makes life easier. Clean code and creative teamwork are my thing. I enjoy turning complex challenges into simple solutions, and I always bring a positive &quot;let&apos;s make it awesome&quot; energy to every project. I&apos;am happiest collaborating with others, learning new things, and celebrating wins together &#40;big or small&#41;. If you want a teammate who&apos;ll tackle tough bugs with a smile and keep the process fun, that&apos;s me!
+                      I build compilers and the analyses that reason about them. My work spans MLIR and LLVM IR, control-flow and dataflow analysis, JIT compilation internals, and optimization pipelines &#40;currently a security-aware adaptive JIT on Jikes RVM&#41;. I like the hard middle of the stack &#8212; the part that turns a program into fast, correct machine code &#8212; and I write a lot of C/C++ to get there. Mostly I just enjoy taking a compiler apart to see how it really works, then building my own.
           </p>
         </div>
         <motion.div

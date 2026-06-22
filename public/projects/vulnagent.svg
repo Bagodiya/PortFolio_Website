@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#ff3cac"/><stop offset="1" stop-color="#fc0865"/>
+</linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#26242c"/><stop offset="1" stop-color="#1a191e"/>
+</linearGradient>
+</defs>
+<rect x="2" y="2" width="636" height="356" rx="20" fill="url(#bg)" stroke="#34323b" stroke-width="2"/>
+<rect x="2" y="2" width="636" height="6" rx="3" fill="url(#acc)"/>
+<text x="40" y="78" font-family="ui-monospace,Menlo,monospace" font-size="15" letter-spacing="3" fill="#fc0865">// ML + AGENT</text>
+<text x="38" y="150" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="52" font-weight="800" fill="#f5f5f7">VulnAgent</text>
+<text x="40" y="192" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="20" fill="#9a9aa3">Agentic CVE prioritization (ML + SSVC)</text>
+<text x="600" y="78" text-anchor="end" font-family="ui-monospace,monospace" font-size="40" fill="#2f2d36" font-weight="800">{}</text>
+<rect x="126" y="250" width="64" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="158" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">CVEs</text>
+<text x="203" y="273" text-anchor="middle" font-family="ui-monospace,monospace" font-size="16" fill="url(#acc)">&#8594;</text>
+<rect x="216" y="250" width="91" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="262" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">ML rank</text>
+<text x="320" y="273" text-anchor="middle" font-family="ui-monospace,monospace" font-size="16" fill="url(#acc)">&#8594;</text>
+<rect x="333" y="250" width="64" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="365" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">SSVC</text>
+<text x="410" y="273" text-anchor="middle" font-family="ui-monospace,monospace" font-size="16" fill="url(#acc)">&#8594;</text>
+<rect x="423" y="250" width="91" height="34" rx="8" fill="#2f2d36" stroke="#3c3a44"/>
+<text x="468" y="272" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#c9c9d1">explain</text>
+</svg>
